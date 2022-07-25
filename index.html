@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <section class="title">
+    <h1 id="title">
+      Survey Form
+    </h1>
+    <p>
+      Thank you for taking the time to help us improve!
+    </p>
+  </section>
+
+  
+    <form>
+      
+
+        
+            <label id="name">Name</label>
+            <input type="text" placeholder="Enter your name">
+            
+            <label id="email">Email</label>
+            <input type="text" label="Email" placeholder="Enter your email">
+            
+            <label id="age">Age (optional)</label>
+            <input type="text" label="Age" placeholder="Age">
+          
+
+        
+            <label for="role">What is your current role?</label>
+            <select name="role" id="role" placeholder="Select one">
+              <option value="Full-time">Full-time</option>
+              <option value="Part-time">Part-time</option>
+              <option value="Student">Student</option>
+              <option value="Other">Other</option>
+              <option value="Prefer not to say">Prefer not to say</option>
+            </select>
+        
+        
+
+        
+          <label class="rec" for="recommend">Would you recommend us?</label>
+
+            <li><input type="checkbox" name="Yes" id="Yes">
+              <label for="">Yes</label>
+            </li>
+
+            <li><input type="checkbox" name="Maybe" id="Maybe">
+              <label for="">Maybe</label>
+            </li>
+
+            <li><input type="checkbox" name="No" id="No">
+              <label for="">No</label>
+            </li>
+            
+              
+            
+           
+        
+
+        
+          <label for="">Any comments or suggestions?</label>
+          <textarea name="" id="comment-section" cols="10" rows="10">Enter your comment here...</textarea>
+        
+      
+      
+          <button id="submit">
+            Submit
+          </button>    
+
+  </form>
+  
+
+
+
+  
+ <script src="app.js"></script> 
+</body>
+</html>
